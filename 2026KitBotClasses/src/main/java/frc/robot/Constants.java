@@ -25,6 +25,10 @@ public final class Constants {
     // Current limit for drivetrain motors. 60A is a reasonable maximum to reduce
     // likelihood of tripping breakers or damaging CIM motors
     public static final int DRIVE_MOTOR_CURRENT_LIMIT = 60;
+
+    // Wheel and gear constants for encoder distance calculation
+    public static final double WHEEL_DIAMETER_FEET = 0.5; // 6 inch wheels = 0.5 ft, adjust as needed
+    public static final double GEAR_RATIO = 10.71; // Drive gear ratio, adjust as needed
   }
 
   public static final class FuelConstants {
